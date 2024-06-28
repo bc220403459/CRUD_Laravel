@@ -170,3 +170,7 @@
         </div>
     </body>
 </html>
+<?php
+$users="SELECT * FROM user_logins";
+dd($users);
+?>
